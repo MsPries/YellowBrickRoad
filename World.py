@@ -102,7 +102,7 @@ def try_move(dx, dy):
                 wins += 1
                 print("You earned brick", wins, "out of 5")
                 if wins == 2:
-                    print ("Winner! Here's your clue! Left", (2*(int(chr(51))**int(chr(50))-int(chr(53)))))
+                    print ("Winner! Here's your clue! Right", (2*(int(chr(51))**int(chr(50))-int(chr(53)))))
                     raise SystemExit
             else:
                 print("Score: ", score)
